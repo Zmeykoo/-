@@ -1,16 +1,19 @@
-import numpy as np
-import copy as cp
+from math import fabs,pow
+from mpmath import *
 
-A = np.random.randint(10, size=(5,5))
-Cop=cp.copy(A)
-print(A)
+n='\n'
+for x in range(20):
+    mnog = pow(10,x)
+    A=3.419911843276937
+    a=3.419911843276940
+    new=[]
+    spi=[A,a]
+    for i in spi:
+        i*=mnog
+        print(i)
+        new.append(i)
+    print(new)
 
-def ob(row, column):
-	"""mhj"""
-	Cop[x,y]=
+    b=new[1]-new[0]
 
-for x in range(len(A)):
-	for y in range(len(x)):
-		print(y)
-		
-		
+    print('* 10^ =',x,n,A,n,a,n,b,'* 10^',x,n)

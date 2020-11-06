@@ -2,7 +2,7 @@ import numpy as np
 import copy as cp
 def oper(matr1,matr2):
 	"""Basic operations"""
-	do=3#int(input("Якою операцією бажаєте скористатись?\n1 - додавання\n2 - віднімання\n3 - множення\n4 - ділення\n:"))
+	do=int(input("Якою операцією бажаєте скористатись?\n1 - додавання\n2 - віднімання\n3 - множення\n\n:"))
 	if do == 1:
 		print(matr1+matr2)
 	elif do == 2:
@@ -13,7 +13,6 @@ def oper(matr1,matr2):
 			for y in range(len(matr1)):
 				a=matr1[x,:]*matr2[:,y]
 				result[x,y]=(sum(a))
-				print('a =',a,'eheh',matr1[x,:],matr2[:,y],x,y)
 		print(result)
 
 a = np.array([[2,4,32],[24,5,87],[21,1,0]])

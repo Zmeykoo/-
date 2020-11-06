@@ -3,9 +3,11 @@
 import copy as cp
 import numpy as np
 #вхідні данні та визачник
-matr = np.array([[2,-3,1],[2,1,-4],[6,-5,2]])
+
+n, m = map(int, input("Enter size, please:").split(','))
+matr = np.random.randint(10, size=(n,m))
 det = round(np.linalg.det(matr))
-B = np.array([2,9,17])
+B = np.random.randint(10, size=(n,1))
 Al = cp.copy(matr)
 
 print('Origin matrix\n',matr,'\n')

@@ -16,7 +16,7 @@ def vyzn(var, matrix):
 	"""Kramer Go"""
 	matrix[:,x]=B[:,0]
 	res.append(round(np.linalg.det(matrix))/det)
-	print(var, '\n Matrix\n',matrix, round(np.linalg.det(matrix)))
+	print(var, '\n Matrix\n',matrix)
 
 
 if det==0:

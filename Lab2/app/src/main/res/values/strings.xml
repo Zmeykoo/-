@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PDM-Lab2</string>
+    <string name="type_something">Type something</string>
+    <string name="info1">Car</string>
+    <string name="info2">Bike</string>
+    <string name="pic">Picture</string>
+    <string name="click_on_me">Show</string>
+    <string name="dont_click_on_me">Hide</string>
+
+    <dimen name="height1">60dp</dimen>
+    <dimen name="width1">60dp</dimen>
+    <dimen name="width2">200dp</dimen>
+    <dimen name="width3">120dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PDM-Lab3</string>
+    <dimen name="activity_vertical_margin">30dp</dimen>
+    <dimen name="activity_horizontal_margin">30dp</dimen>
+
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+
+    <string name="add_entry">Add entry</string>
+    <string name="check_entry">Check entry</string>
+    <string name="update_entry">Update entry</string>
+    <string name="delete_entry">Delete entry</string>
+</resources>
